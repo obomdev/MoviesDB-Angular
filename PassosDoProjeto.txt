@@ -1,0 +1,14 @@
+Criar um projeto:
+ng new nomeDoProjeto
+
+Executar o projeto: 
+cd nomeDoProjeto
+ng serve -o 
+
+Criar novos Componentes:
+ng g c pages/home
+ng g c pages/search
+ng g c pages/details
+
+Criar um serviço:
+ng g s services/movieApi
