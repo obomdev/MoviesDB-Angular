@@ -1,14 +1,13 @@
-.navbar{
+.navbar {
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(2px);
-
 }
 
 .navbar .navbar-brand {
-    color: red;
-    font-size: bold;
-
+    color: #e50914;
+    font-weight: bold;
 }
+
 .navbar-nav .nav-item .nav-link {
-    color: red;
+    color: #e50914;
 }
