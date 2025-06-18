@@ -65,4 +65,9 @@ export class MovieApiService {
   personDetails(value: any): Observable<any> {
     return this.http.get(`${this.baseUrl}/person/${value}?language=pt-br`, this.options);
   }
+
+  // Pesquisar
+  searchMedia(value: any, page: any = 1) : Observable<any> {
+    return this.http.get(`${this.baseUrl}/search/multi?query=${value}&language=pt-br&include_adult=true&page=${page}`, this.options);
+  }
 }
